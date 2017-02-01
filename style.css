@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html, body {
+  text-align: center;
+  background-color: #00162B;
+  color: white;
+  padding-top: 30px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.title {
+  font-size: 50px;
+  font-family: Lobster;
+  width: 100%;
+  background-color: #2b0016;
+}
+
+#signature {
+  font-style: italic;
+  color: #EE8D00;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  margin-bottom: 30px;
+}
+.menu span {
+  font-size: 20px;
+  padding: 10px 20px;
+  maring: 0px;
+  cursor: pointer;
+}
+
+.menu span:hover {
+  border-style: solid;
+  border-color: #D3D3D3;
+  text-decoration: underline;
+}
+
+.active {
+  color: #333;
+  background-color: #D3D3D3;
+  font-weight: 600;
+}
+
+#display {
+ display: inline-block; 
+}
+
+.line {
+  height: 50px;
+  width: 600px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.line:hover {
+  border-left-style: solid;
+  border-left-color: #EE8D00;
+}
+
+#name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 10px;
+  float: left;
+  color: #2b0016;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 5px;
+}
+
+#streaming {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px 10px;
+  float: right;
+  color: #00162B;
+  font-style: italic;
+}
+
+.online {
+  background-color: #a5f29b;
+}
+
+.offline {
+  background-color: #D3D3D3;
+}
